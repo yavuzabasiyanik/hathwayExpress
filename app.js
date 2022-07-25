@@ -45,8 +45,9 @@ app.get('/api/posts',async(req,res)=>{
             const re =await response.json();
 
 
-
             
+
+
 
             posts.push(...re.posts)
         }catch(e){
