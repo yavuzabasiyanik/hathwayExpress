@@ -37,6 +37,7 @@ app.get('/api/posts',async(req,res)=>{
 
 
     
+
     for(let tag of tagArr){
 
         try{
