@@ -29,13 +29,14 @@ app.get('/api/posts',async(req,res)=>{
        return res.status(400).json({"error":"direction parameter is invalid"});
     }
 
-    
+
     const tagArr =  tags.split(',');
     let posts = [];
 
 
 
 
+    
     for(let tag of tagArr){
 
         try{
