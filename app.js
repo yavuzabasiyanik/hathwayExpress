@@ -36,7 +36,7 @@ app.get('/api/posts',async(req,res)=>{
 
 
 
-    
+
 
     for(let tag of tagArr){
 
@@ -46,6 +46,7 @@ app.get('/api/posts',async(req,res)=>{
 
 
 
+            
             posts.push(...re.posts)
         }catch(e){
         }
